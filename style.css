@@ -441,18 +441,19 @@ nav {
   border-radius: var(--radius-lg);
   border: 1px solid var(--gold-border);
 }
-.review-container {
+.video-testimonials {
   display: flex;
-  gap: 15px;
-  overflow-x: auto;
-  padding: 10px;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.review-container video {
-  width: 220px;
-  height: 350px;
+.video-testimonials video {
+  width: 250px;
+  height: 400px;
   object-fit: cover;
   border-radius: 12px;
+  border: 1px solid rgba(201,168,76,0.35);
 }
 
 /* ── INTERIOR GALLERY ── */
