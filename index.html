@@ -397,7 +397,6 @@
 
 <!-- VIDEO TESTIMONIALS — autoplay muted loop -->
 <!-- VIDEO TESTIMONIALS -->
-<!-- VIDEO TESTIMONIALS -->
 <div class="container">
   <p class="section-label">Client Videos</p>
   <h2 class="section-title">Our Happy Clients 💬</h2>
@@ -406,15 +405,17 @@
   <div style="display:flex; gap:20px; justify-content:center; margin-top:20px; flex-wrap:wrap;">
 
     <!-- VIDEO 1 -->
-    <video controls muted playsinline width="250" height="400"
-      src="https://res.cloudinary.com/dqhklks7j/video/upload/f_auto,q_auto/review1_c2mqt1.mp4"
+    <video width="250" height="400" controls muted playsinline preload="auto"
       style="border-radius:12px; border:1px solid rgba(201,168,76,0.35);">
+      <source src="https://res.cloudinary.com/dqhklks7j/video/upload/q_auto,f_mp4/review1_c2mqt1" type="video/mp4">
+      Your browser does not support video.
     </video>
 
     <!-- VIDEO 2 -->
-    <video controls muted playsinline width="250" height="400"
-      src="https://res.cloudinary.com/dqhklks7j/video/upload/f_auto,q_auto/review2_bsfpxw.mp4"
+    <video width="250" height="400" controls muted playsinline preload="auto"
       style="border-radius:12px; border:1px solid rgba(201,168,76,0.35);">
+      <source src="https://res.cloudinary.com/dqhklks7j/video/upload/q_auto,f_mp4/review2_bsfpxw" type="video/mp4">
+      Your browser does not support video.
     </video>
 
   </div>
